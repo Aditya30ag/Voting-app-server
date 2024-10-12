@@ -136,6 +136,7 @@ export default function Homeadmin(props) {
           })}
           </div>
           <button className="btn btn-success"><Link to="/addcandidate" style={{textDecoration:'none',color:"whitesmoke"}}>Add a New Candidate</Link></button>
+          <button className="btn btn-success" style={{marginTop:"10px"}}><Link to="/results" style={{textDecoration:'none',color:"whitesmoke"}}>View Results</Link></button>
         </div>
         <div className="imgstyle" style={{ rowGap: "10px",textAlign:"center"}}>
           <img

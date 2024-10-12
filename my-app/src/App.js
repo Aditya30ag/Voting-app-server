@@ -16,6 +16,7 @@ import Signupadmin from "./components/Signupadmin";
 import Addcandidate from "./components/Addcandidate";
 import Footer from "./components/Footer";
 import Footer2 from "./components/Footer2";
+import Results from "./components/Results";
 
 function App() {
   document.body.style.background="linear-gradient(#E2EAF4,#E2EAF4,white)";
@@ -69,6 +70,16 @@ function App() {
           <Navbar showalert={showalert} handleonClick2={handleonClick2} />
           <LoadingBar color="#000" progress={progress} />
           <About/><Footer/>
+        </>
+      ),
+    },
+    {
+      path: "/results",
+      element: (
+        <>
+          <Navbar showalert={showalert} handleonClick2={handleonClick2} />
+          <LoadingBar color="#000" progress={progress} />
+          <Results/><Footer2/>
         </>
       ),
     },

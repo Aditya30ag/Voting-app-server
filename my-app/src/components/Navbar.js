@@ -113,7 +113,7 @@ export default function Navbar(props) {
           ) : (
             <>
               <button className="logout-btn" onClick={logout}>
-              <i class="fas fa-sign-out-alt"></i>Logout
+              <i className="fas fa-sign-out-alt"></i>Logout
               </button>
             </>
           )}
